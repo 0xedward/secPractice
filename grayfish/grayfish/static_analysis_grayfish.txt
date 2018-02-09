@@ -1,0 +1,56 @@
+file
+GrayFish_9B1CA66AAB784DC5F1DFE635D8F8A904: PE32 executable (GUI) Intel 80386, for MS Windows
+
+strings
+"XXPADDINGXX" repeats a lot
+
+exiftool
+ExifTool Version Number         : 10.75
+File Name                       : GrayFish_9B1CA66AAB784DC5F1DFE635D8F8A904
+Directory                       : .
+File Size                       : 560 kB
+File Modification Date/Time     : 2015:02:17 07:31:08+00:00
+File Access Date/Time           : 2018:02:09 03:10:56+00:00
+File Inode Change Date/Time     : 2018:02:09 03:10:18+00:00
+File Permissions                : rw-r--r--
+File Type                       : Win32 EXE
+File Type Extension             : exe
+MIME Type                       : application/octet-stream
+Machine Type                    : Intel 386 or later, and compatibles
+Time Stamp                      : 2008:02:01 20:15:21+00:00
+PE Type                         : PE32
+Linker Version                  : 6.0
+Code Size                       : 110592
+Initialized Data Size           : 458752
+Uninitialized Data Size         : 0
+Entry Point                     : 0x1590a
+OS Version                      : 4.0
+Image Version                   : 0.0
+Subsystem Version               : 4.0
+Subsystem                       : Windows GUI
+File Version Number             : 1.0.0.1
+Product Version Number          : 1.0.0.1
+File Flags Mask                 : 0x8001
+File Flags                      : Private build
+File OS                         : Windows NT 32-bit
+Object File Type                : Executable application
+File Subtype                    : 0
+Language Code                   : Neutral
+Character Set                   : Unicode
+Company Name                    : Microsoft Corporation
+File Description                : Windows Configuration Services
+File Version                    : 4.0.1374.1
+Internal Name                   : DOGROUND.exe
+Legal Copyright                 : Copyright (C) Microsoft Corp. 1981-2001
+Original File Name              : DOGROUND.exe
+Product Name                    : Microsoft(R) Windows (R) 2000 Operating System
+Product Version                 : 5.0.2074.0
+Private Build                   : 4.00.03.0004
+
+md5 hash
+9b1ca66aab784dc5f1dfe635d8f8a904
+
+virustotal results
+https://www.virustotal.com/#/file/df4bbd02dcd8b8b9e1374c6f71f2e2da8518d39337b35983874266e8fff055e1/detection
+
+http://artemonsecurity.blogspot.com/2017/05/grayfish-rootkit-analysis.html

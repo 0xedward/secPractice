@@ -1,0 +1,29 @@
+Things to try for static analysis (what can we learn while not actually running it):
+1. cat file
+2. strings
+- look for commonly repeated strings - why are repeated strings bad?
+3. reverse engineering - IDA Pro
+4. metadata
+- exiftool [file] - useful for CTFs - steganography
+- file [file]
+5. scan with antivirus - virustotal.com
+- hash the file - md5sum [file] or sha256 [file]
+- check for that hash on virustotal
+- why is uploading bad? you don't want to transfer file over the network
+6. Look up UPX - malware authors use to obfuscate their malware - makes it
+harder for antivirus to analyze/recognize it and other people to read your code
+7. malware sandbox - cuckoo sandbox - allows to analyze malware inside VM
+
+advanced static analysis (aka reverse engineering)
+Why reverse?
+- some randomware - mistakes in implementing encryption algorithm
+- trace who wrote the malware - a lot of authors copy
+- learn how a malware sample exploits a vulnerability
+- learn how malware communicates with Command-and-Control (C&C) server
+
+Process for Reverse Engineering
+1. convert executable to assembly code (disassembler) - IDA PRO
+2. step thru each line of assembly code (debugger) - gdb
+3. write psuedocode while stepping thru
+
+https://github.com/ytisf/theZoo/tree/master/malwares
